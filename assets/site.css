@@ -148,6 +148,10 @@ legend{float:left;width:100%;font-size:14px;font-weight:600;margin-bottom:14px;p
 .foot{padding:36px 0}
 .foot__in{display:flex;align-items:center;gap:24px;flex-wrap:wrap}
 .foot p{font-size:14px;color:var(--muted);margin-right:auto}
+.foot__credit{margin-top:20px}
+.foot__credit p{font-size:13px;padding-top:18px;border-top:1px solid var(--line)}
+.foot__credit a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line);transition:border-color .2s}
+.foot__credit a:hover{border-bottom-color:var(--ink)}
 
 /* lightbox */
 .lightbox{border:0;padding:0;margin:0;width:100vw;height:100dvh;max-width:none;max-height:none;background:rgba(20,17,16,.96);color:#f2eeea}
